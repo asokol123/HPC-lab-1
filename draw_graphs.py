@@ -27,6 +27,17 @@ small = [
     50.12,
 ]
 
+small_v2 = [
+    250.08,
+    246.41,
+    236.91,
+    259.08,
+    229.26,
+    226.75,
+    237.4,
+    241.3,
+]
+
 large_single = 32925.73333333333
 large = [
     164992.8,
@@ -41,5 +52,7 @@ large = [
 
 arr_small = [small_single / el for el in small]
 draw_times(arr_small, 'Pictures/small_increase.png')
+arr_small_v2 = [small_single / el for el in small_v2]
+draw_times(arr_small_v2, 'Pictures/small_v2_increase.png')
 arr_large = [large_single / el for el in large]
 draw_times(arr_large, 'Pictures/large_increase.png')

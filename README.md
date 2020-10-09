@@ -46,5 +46,9 @@ Hardware concurrency 8.
 
 ![small](Pictures/large_increase.png)
 
-Итог всего в 4 раза медленнее!!!
+Проигрыш `v2` на маленьких тестах:
+
+![small](Pictures/small_v2_increase.png)
+
+Итого `v1` всего в 4 раза медленнее!!!
 Скорее всего на кластерах или Xeon или i9 процессорах будет даже выигрыш.
